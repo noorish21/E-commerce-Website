@@ -1,0 +1,81 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.search{
+    height: 40px;
+    width:80%;
+    border-radius: 60px;
+    border:2px solid rgb(87, 92, 86);
+    outline: none;
+    margin-right:-35px;
+}
+
+.btn0{
+    height: 40px;
+    width:40%;
+    border-radius: 60px;
+    border:2px solid rgb(53, 54, 53);
+    outline: none;
+    background-color:rgb(69, 150, 37);
+    color:white;
+    font-weight: bold;
+}
+
+.main{
+
+    background: url(fruit1.jpg);
+    background-size: cover;
+    height:80vh;
+    width:100%;
+    background-position: 50% 50%;
+   
+}
+
+.main h1{
+
+    font-size: 4rem;
+    font-weight: 700;
+   
+
+}
+
+.btn1{
+    height: 40px;
+    width:30%;
+    border-radius: 60px;
+    border:2px solid rgb(53, 54, 53);
+    outline: none;
+    background-color:rgb(69, 150, 37);
+    color:white;
+    font-weight: bold;
+}
+/* Set specific size for images */
+.custom-img {
+  width: 100px;   /* set width */
+  height: 90px;   /* set height */
+  object-fit: contain; /* keeps image proportional and avoids stretching */
+}
+
+.btn2{
+    height: 40px;
+    width:15%;
+    border-radius: 60px;
+    border:2px solid rgb(53, 54, 53);
+    outline: none;
+    background-color:rgb(69, 150, 37);
+    color:white;
+    font-weight: bold;
+}
+
+.last{
+
+     background: linear-gradient(rgba(0,0,0,0.2)),url(fruit.jpg);
+     background-size: cover;
+     height:60vh;
+     width:100%;
+}
